@@ -13,11 +13,14 @@ public class Main {
 //                "Almost.legit@sad.oRg " +
 //                "sfaoij_=afj12_sad.com ");
 //
-//        printValidEmails("Totally_legit@email.com " +
-//                        "Almost.legit@sad.oRg " +
-//                        "sfaoij_=afj12_sad.com ");
+        printValidEmails("Totally_legit@email.com " +
+                "Almost.legit@sad.oRg " +
+                "sfaoij_=afj12_sad.com ");
+//        System.out.println(checkEmailString("goddammit@work_d.cm"));
 
-        checkEmailString("goddammit@work_d.cm");
+        System.out.println(checkEmailString("a0707781@unet.univie.ac.at"));
+
+
     }
 
 
@@ -41,7 +44,6 @@ public class Main {
                 System.out.println("Valid email found: " + matcher.group());
             }
             return matcher.find();
-
         }
     }
 }
